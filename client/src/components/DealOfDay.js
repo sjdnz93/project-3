@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card'
 
 import Spinner from './Spinner.js'
 import Error from './Error.js'
+// deal
 
 const DealOfDay = () => {
   const [items, setItems] = useState([])
