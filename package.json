@@ -11,7 +11,7 @@
     "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "react-router-dom": "^6.9.0",
-    "start": "node index.js",
+    "start": "node ./index.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "name": "project-3",
