@@ -14,11 +14,11 @@ const seedDatabase = async () => {
   try {
 
     //Connect to database
-    await mongoose.connect(process.env.MONGO_URI, { maxPoolSize: 10 })
+    await mongoose.connect(process.env.DB_URI, { maxPoolSize: 10 })
     console.log('💎 Database connected.')
 
     //Drop database
-    await mongoose.connection.db.dropDatabase()
+    Promise.all(Object.values(mongoose.connection.collections).map(async collection => await collection.deleteMany()))
     console.log('👹 Database dropped.')
 
     //Create default users
