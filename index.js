@@ -16,7 +16,7 @@ const startServer = async () => {
   try {
 
     //?Connect to mongoDB database
-    await mongoose.connect(process.env.MONGO_URI)
+    await mongoose.connect(process.env.DB_URI)
     console.log('💎 Database connected')
 
     //? Parse JSON to req.body
