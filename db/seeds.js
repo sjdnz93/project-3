@@ -18,7 +18,8 @@ const seedDatabase = async () => {
     console.log('💎 Database connected.')
 
     //Drop database
-    Promise.all(Object.values(mongoose.connection.collections).map(async collection => await collection.deleteMany()))
+    await mongoose.connection.db.dropDatabase()
+    // Promise.all(Object.values(mongoose.connection.collections).map(async collection => await collection.deleteMany()))
     console.log('👹 Database dropped.')
 
     //Create default users
