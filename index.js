@@ -39,6 +39,7 @@ const startServer = async () => {
       res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
     })
 
+    
     //? 404 catch all middleware
     app.use((req, res) => {
       return res.status(404).json({ message: 'Route does not exist.' })
