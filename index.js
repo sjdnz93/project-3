@@ -32,7 +32,7 @@ const startServer = async () => {
     })
 
     //Router goes here
-    app.use('/api/data', router)
+    app.use('/api', router)
     app.use(express.static(path.join(__dirname, 'client', 'build')))
 
     app.get('*', (req, res) => {

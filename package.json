@@ -21,7 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "npx nodemon index.js",
     "seed": "node db/seeds.js",
-    "start": "node index.js",
+    "start": "node index",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "author": "",
