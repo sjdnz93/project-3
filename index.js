@@ -38,6 +38,7 @@ const startServer = async () => {
     app.get('*', (req, res) => {
       res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
     })
+    
 
     //? 404 catch all middleware
     app.use((req, res) => {
