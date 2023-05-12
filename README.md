@@ -10,17 +10,17 @@ My team settled on the concept of building an online marketplace, where users co
 ## Deployment link
 My project can be found at the following link:
 
-<a href='https://hagl-project-3.herokuapp.com/' target='_blank' rel='noreferrer'>Hagl</a>
+<a href='https://hagl-project-3.herokuapp.com/'>Hagl</a>
 
 ## Code installation
-* Fork code from <a href='https://github.com/sjdnz93/project-3' target='_blank' rel='noreferrer'>GitHub repository</a> 
+* Fork code from <a href='https://github.com/sjdnz93/project-3'>GitHub repository</a> 
 * In root folder, run ```npm install```
 * In root folder, run ```npm run seed```
 * In root folder, run ```npm run serve```
 * In client folder, run ```npm run start```
 
 ## Timeframe & working team
-This was a group project and I worked as a part of a team of three. My teammates were <a href='https://github.com/tommycroot' target='_blank' rel='noreferrer'>Tom Croot</a> and <a href='https://github.com/JackL-1' target='_blank' rel='noreferrer'>Jack Lungu</a>. We had roughly 1.5 weeks to build this application. 
+This was a group project and I worked as a part of a team of three. My teammates were <a href='https://github.com/tommycroot'>Tom Croot</a> and <a href='https://github.com/JackL-1'>Jack Lungu</a>. We had roughly 1.5 weeks to build this application. 
 
 **Dates:** 
 
